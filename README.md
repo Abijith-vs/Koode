@@ -1,2 +1,2 @@
 # Koode
-An web based solution for all hospital administration problems
+A web based solution for all hospital administration problems
