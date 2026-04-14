@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 
-const DATA_DIR = path.resolve(process.cwd(), 'data')
+const DATA_DIR = process.env.VERCEL ? '/tmp/data' : path.resolve(process.cwd(), 'data')
 const AUTH_PATH = path.join(DATA_DIR, 'auth.json')
 
 async function ensureAuthFile() {
