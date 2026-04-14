@@ -1,0 +1,21 @@
+{
+  "organs": [
+    {
+      "id": "org_heart_1",
+      "type": "Heart",
+      "bloodGroup": "O+",
+      "center": "Dhaka Procurement Center",
+      "status": "available",
+      "createdAt": "2026-04-13T13:06:00.542Z"
+    },
+    {
+      "id": "org_kidney_1",
+      "type": "Kidney",
+      "bloodGroup": "A+",
+      "center": "Chittagong Transplant Center",
+      "status": "available",
+      "createdAt": "2026-04-13T13:06:00.542Z"
+    }
+  ],
+  "requests": []
+}
