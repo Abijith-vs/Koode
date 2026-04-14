@@ -1,69 +1,37 @@
 {
   "appointments": [
     {
-      "id": "apt_1ae8dfa2-6646-4bf2-a553-b16b9921c6bd",
+      "id": "apt_22133716-0449-4eea-bb21-3cf9f8e2ffe5",
       "patientId": "usr_b355f608-e3c1-409f-ac56-570ff51f0b26",
       "doctorId": "usr_49a96a00-ef5b-4a5d-b369-574b316acb44",
       "department": "cardiology",
-      "datetime": "2026-05-28T12:03",
-      "reason": "Follow-up appointment based on previous diagnosis",
+      "datetime": "2324-02-13T23:45",
+      "reason": "FSADF",
       "status": "accepted",
-      "createdAt": "2026-04-13T18:27:02.744Z",
-      "diagnosis": "asd"
+      "createdAt": "2026-04-14T01:51:12.257Z",
+      "diagnosis": "CACDSDSAV"
     },
     {
-      "id": "apt_d5308b51-03fc-4fa7-9d70-0b7d4b5c7203",
+      "id": "apt_0f1e2d3c-4b5a-6978-8765-43210fedcba9",
+      "doctorId": "usr_e7149466-b721-4679-a53f-aaf408c79b0c",
+      "doctorName": "Dr. Sarah Smith",
       "patientId": "usr_b355f608-e3c1-409f-ac56-570ff51f0b26",
-      "doctorId": "usr_49a96a00-ef5b-4a5d-b369-574b316acb44",
-      "department": "cardiology",
-      "datetime": "2026-04-29T23:44",
-      "reason": "Follow-up appointment based on previous diagnosis",
-      "status": "accepted",
-      "createdAt": "2026-04-13T18:26:23.271Z",
-      "diagnosis": "fwssdf"
+      "patientName": "avs",
+      "datetime": "2026-04-15T10:30:00.000Z",
+      "reason": "Regular checkup for migraine.",
+      "status": "pending",
+      "createdAt": "2026-04-14T01:00:00.000Z"
     },
     {
-      "id": "apt_3bb4eb5f-8673-44e8-8197-3a12aaf93099",
-      "patientId": "usr_b355f608-e3c1-409f-ac56-570ff51f0b26",
-      "doctorId": "usr_49a96a00-ef5b-4a5d-b369-574b316acb44",
-      "department": "cardiology",
-      "datetime": "2026-04-16T12:03",
-      "reason": "dddd",
+      "id": "apt_9a8b7c6d-5e4f-3a2b-1c0d-e9f8g7h6i5j4",
+      "doctorId": "usr_941adbbd-4132-46b5-9a8d-655d2c883fba",
+      "doctorName": "Dr. John Doe",
+      "patientId": "usr_22924344-4d25-4f2c-a9d7-788bcb7ade6d",
+      "patientName": "t",
+      "datetime": "2026-04-16T14:00:00.000Z",
+      "reason": "Knee pain after running.",
       "status": "accepted",
-      "createdAt": "2026-04-13T18:26:03.972Z",
-      "diagnosis": "cdsfsv"
-    },
-    {
-      "id": "apt_b70e69ce-4532-477e-b909-81971a057b4f",
-      "patientId": "usr_b355f608-e3c1-409f-ac56-570ff51f0b26",
-      "doctorId": "usr_49a96a00-ef5b-4a5d-b369-574b316acb44",
-      "department": "cardiology",
-      "datetime": "2026-04-15T12:05",
-      "reason": "fever ",
-      "status": "accepted",
-      "createdAt": "2026-04-13T18:14:38.132Z",
-      "diagnosis": "paractemol,sitrusin\n|aavi pidik"
-    },
-    {
-      "id": "apt_5583885a-e09e-4260-a4ed-1f926f9605b6",
-      "patientId": "usr_b355f608-e3c1-409f-ac56-570ff51f0b26",
-      "doctorId": "usr_49a96a00-ef5b-4a5d-b369-574b316acb44",
-      "department": "cardiology",
-      "datetime": "2026-04-25T12:34",
-      "reason": "l;afhjd;hjd",
-      "status": "accepted",
-      "createdAt": "2026-04-13T18:12:56.931Z",
-      "diagnosis": "ljlfh;sdaifh;odsfhmnlkjadhsfl .sjhd;oiodhs"
-    },
-    {
-      "id": "apt_8987ef50-d7a7-4daf-b780-a44ce341201d",
-      "patientId": "usr_b355f608-e3c1-409f-ac56-570ff51f0b26",
-      "doctorId": "usr_49a96a00-ef5b-4a5d-b369-574b316acb44",
-      "department": "cardiology",
-      "datetime": "2026-04-14T12:32",
-      "reason": "ASDF",
-      "status": "rejected",
-      "createdAt": "2026-04-13T18:05:34.409Z"
+      "createdAt": "2026-04-14T01:30:00.000Z"
     }
   ]
 }

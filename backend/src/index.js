@@ -8,6 +8,7 @@ import { organeaseRouter } from './routes/organease.js'
 import { authRouter } from './routes/auth.js'
 import { doctorsRouter } from './routes/doctors.js'
 import { appointmentsRouter } from './routes/appointments.js'
+import { hospitalsRouter } from './routes/hospitals.js'
 import { ensureSeedAdmin } from './lib/seedAdmin.js'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -31,6 +32,7 @@ app.get('/api', (_req, res) => {
 app.use('/api', authRouter)
 app.use('/api', doctorsRouter)
 app.use('/api', appointmentsRouter)
+app.use('/api', hospitalsRouter)
 app.use('/api', organeaseRouter)
 
 app.use((err, _req, res, next) => {
@@ -41,12 +43,16 @@ app.use((err, _req, res, next) => {
 })
 
 const port = Number(process.env.PORT) || 8000
-app.listen(port, () => {
-  console.log(`Backend listening on http://localhost:${port}`)
-})
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`Backend listening on http://localhost:${port}`)
+  })
+}
 
 void ensureSeedAdmin().catch((err) => {
   console.error('Failed to seed admin user')
   console.error(err)
 })
+
+export default app
 

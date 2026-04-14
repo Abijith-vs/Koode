@@ -1,0 +1,39 @@
+{
+  "hospitals": [
+    {
+      "id": "hosp_1",
+      "name": "Apollo Hospital",
+      "location": "Chennai, India",
+      "rating": 4.7,
+      "specialities": ["Cardiology", "Neurology", "Oncology"]
+    },
+    {
+      "id": "hosp_2",
+      "name": "Mayo Clinic",
+      "location": "Rochester, MN",
+      "rating": 4.9,
+      "specialities": ["Cardiology", "Orthopedics", "Nephrology"]
+    },
+    {
+      "id": "hosp_3",
+      "name": "Johns Hopkins Hospital",
+      "location": "Baltimore, MD",
+      "rating": 4.8,
+      "specialities": ["Neurology", "Pediatrics", "Psychiatry"]
+    },
+    {
+      "id": "hosp_4",
+      "name": "AIIMS",
+      "location": "New Delhi, India",
+      "rating": 4.6,
+      "specialities": ["General Medicine", "Surgery", "Cardiology"]
+    },
+    {
+      "id": "hosp_5",
+      "name": "Mount Sinai Hospital",
+      "location": "New York, NY",
+      "rating": 4.7,
+      "specialities": ["Gastroenterology", "Cardiology", "Neurology"]
+    }
+  ]
+}
