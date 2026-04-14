@@ -1,19 +1,12 @@
 {
-  "version": 2,
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/index.js"
+  "experimentalServices": {
+    "frontend": {
+      "root": "./",
+      "framework": "vite"
     },
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
-  "functions": {
-    "api/index.js": {
-      "memory": 1024,
-      "maxDuration": 10
+    "backend": {
+      "root": "backend",
+      "routePrefix": "/api"
     }
   }
 }
